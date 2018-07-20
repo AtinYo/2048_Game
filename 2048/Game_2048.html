@@ -1,0 +1,84 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Game_2048</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link href="Game_2048.css" rel="stylesheet">
+    <link href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+  </head>
+  <body>
+  <div style="width:420px;height:100px;position:absolute;top:10%;left:50%;transform: translate(-50%, -50%);">
+  <button type="button" class="btn btn-default btn-lg" disabled="disabled" style="background-color:#FFD700;font-size:45px;color:white;vertical-align: middle;text-align:center;width:160px;height:100px;margin:0;">
+	2048
+  </button>
+  <button type="button" class="btn btn-default btn-lg" disabled="disabled" style="font-size:20px;background-color:#CDBA96;vertical-align: middle;text-align:center;width:150px;height:100px;">
+	<span style="font-weight:bold;">得分:</span><span id="score">0</span>
+  </button>
+  <button onclick="restart()" type="button" class="btn btn-default btn-lg" style="background-color:#CDBA96;vertical-align: middle;text-align:center;width:102px;height:100px;">
+	<span style="font-weight:bold;">Restart</span>
+  </button>
+  </div>
+ 
+  <div id="grids" class="body-div">
+	<button id="pos_0" type="button" class="btn btn-default btn-lg background-btn" disabled="disabled" style="background-color:#EEE8CD;">
+	
+	</button>
+    <button id="pos_1" type="button" class="btn btn-default btn-lg background-btn" disabled="disabled" style="background-color:#EEE8CD;">
+	
+	</button>
+	<button id="pos_2" type="button" class="btn btn-default btn-lg background-btn" disabled="disabled" style="background-color:#EEE8CD;">
+	
+	</button>
+	<button id="pos_3" type="button" class="btn btn-default btn-lg background-btn" disabled="disabled" style="background-color:#EEE8CD;">
+	
+	</button>
+	<button id="pos_4" type="button" class="btn btn-default btn-lg background-btn" disabled="disabled" style="background-color:#EEE8CD;">
+	
+	</button>
+    <button id="pos_5" type="button" class="btn btn-default btn-lg background-btn" disabled="disabled" style="background-color:#EEE8CD;">
+	
+	</button>
+	<button id="pos_6" type="button" class="btn btn-default btn-lg background-btn" disabled="disabled" style="background-color:#EEE8CD;">
+	
+	</button>
+	<button id="pos_7" type="button" class="btn btn-default btn-lg background-btn" disabled="disabled" style="background-color:#EEE8CD;">
+	
+	</button>
+	<button id="pos_8" type="button" class="btn btn-default btn-lg background-btn" disabled="disabled" style="background-color:#EEE8CD;">
+	
+	</button>
+    <button id="pos_9" type="button" class="btn btn-default btn-lg background-btn" disabled="disabled" style="background-color:#EEE8CD;">
+	
+	</button>
+	<button id="pos_10" type="button" class="btn btn-default btn-lg background-btn" disabled="disabled" style="background-color:#EEE8CD;">
+	
+	</button>
+	<button id="pos_11" type="button" class="btn btn-default btn-lg background-btn" disabled="disabled" style="background-color:#EEE8CD;">
+	
+	</button>
+	<button id="pos_12" type="button" class="btn btn-default btn-lg background-btn" disabled="disabled" style="background-color:#EEE8CD;">
+	
+	</button>
+    <button id="pos_13" type="button" class="btn btn-default btn-lg background-btn" disabled="disabled" style="background-color:#EEE8CD;">
+	
+	</button>
+	<button id="pos_14" type="button" class="btn btn-default btn-lg background-btn" disabled="disabled" style="background-color:#EEE8CD;">
+	
+	</button>
+	<button id="pos_15" type="button" class="btn btn-default btn-lg background-btn" disabled="disabled" style="background-color:#EEE8CD;">
+	
+	</button>
+	</div>
+	
+	<div>
+	
+	</div>
+  </body>
+  <script src="Game_2048.js"></script>
+</html>

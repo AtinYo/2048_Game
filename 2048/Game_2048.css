@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+.background-btn-init{
+vertical-align: middle;text-align:center;width:80px;height:80px;margin:1px;
+}
+
+.background-btn{
+vertical-align: middle;text-align:center;width:100px;height:100px;margin:1px;
+}
+
+.body-div{
+background-color:#CDBA96;width:428px;height:410px;position:absolute;top:50%;left:50%;transform: translate(-50%, -50%);padding:4px;border-radius:6px;
+}
